@@ -1,8 +1,16 @@
 .meals {
     max-width: 60rem;
     width: 90%;
-    margin: 2rem auto;
+   
     animation: meals-appear 1s ease-out forwards;
+    background-color: aliceblue;
+    
+    margin: auto;
+    margin-top: 2rem;
+    position: relative;
+
+    border-radius: 14px;
+    padding: 1rem;
   }
   
   .meals ul {
@@ -10,7 +18,17 @@
     margin: 0;
     padding: 0;
   }
-  
+  div{
+    font-style: italic;
+    margin: top 0;
+  }
+  li{
+    color:#a61111;
+    font-style:normal;
+  }
+  h2{
+    font-style:normal;
+  }
   @keyframes meals-appear {
     from {
       opacity: 0;
